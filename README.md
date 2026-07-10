@@ -1,4 +1,4 @@
-# Digital Customer Behaviour Analysis — Bank Mobile App
+# Digital Customer Behaviour Analysis: Bank Mobile App
 
 ## Project Overview
 A South African bank launched a new mobile banking app. Six months in, app downloads are up but customer satisfaction is falling, many users register without becoming active, and some customers stop using the app after a few weeks.
@@ -6,9 +6,9 @@ A South African bank launched a new mobile banking app. Six months in, app downl
 This project acts as a behavioural data analyst consulting engagement: using SQL to investigate how customers actually use the app, which features drive engagement, where customers drop off, and which behaviours predict long-term usage.
 
 ## Tools Used
-- **SQLite** — lightweight relational database, no server setup required
-- **Python (sqlite3 + pandas)** — used to build the database and run/display SQL query results
-- No external database server or GUI tool needed — the entire project runs from two Python scripts
+- **SQLite** : lightweight relational database, no server setup required
+- **Python (sqlite3 + pandas)** : used to build the database and run/display SQL query results
+- No external database server or GUI tool needed the entire project runs from two Python scripts
 
 ## Project Structure
 ```
@@ -56,11 +56,11 @@ Sample data covers 80 customers, ~2,445 logins, ~1,066 transactions, and ~3,878 
 ## Recommendations for the Bank
 
 1. **Build a dormancy early-warning system** using the login/transaction/feature-usage drop-off pattern identified in Task 9, and trigger retention campaigns (push notifications, incentives) before customers pass the 60-day dormancy threshold, not after.
-2. **Investigate the Loan Applications funnel** — its low usage relative to other features may indicate a UX or awareness problem worth a follow-up qualitative study.
-3. **Standardise onboarding for feature discovery** — the wide spread in "days to adopt Investments" suggests some customers are simply not being shown premium features early enough.
-4. **Prioritise retention over acquisition in the short term** — active user growth has plateaued since March, meaning the real lever for improving app health right now is deepening engagement, not driving more sign-ups.
+2. **Investigate the Loan Applications funnel** : its low usage relative to other features may indicate a UX or awareness problem worth a follow-up qualitative study.
+3. **Standardise onboarding for feature discovery** : the wide spread in "days to adopt Investments" suggests some customers are simply not being shown premium features early enough.
+4. **Prioritise retention over acquisition in the short term** :active user growth has plateaued since March, meaning the real lever for improving app health right now is deepening engagement, not driving more sign-ups.
 
 ## How to Run
-1. Run main.py first — this creates `bank_app.db` and populates it with sample data.
-2. Run analysis.py — this executes all 10 SQL tasks and prints the results.
+1. Run main.py first : this creates `bank_app.db` and populates it with sample data.
+2. Run analysis.py : this executes all 10 SQL tasks and prints the results.
 
