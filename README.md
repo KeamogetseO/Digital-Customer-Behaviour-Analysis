@@ -12,9 +12,9 @@ This project acts as a behavioural data analyst consulting engagement: using SQL
 
 ## Project Structure
 
-main.py: builds bank_app.db and generates sample data
-analysis.py: runs all 10 SQL tasks against bank_app.db
-bank_app.db: the SQLite database (created after running main.py)
+(main.py): builds bank_app.db and generates sample data
+(analysis.py): runs all 10 SQL tasks against bank_app.db
+(bank_app.db): the SQLite database (created after running main.py)
 
 
 ## Database Schema
