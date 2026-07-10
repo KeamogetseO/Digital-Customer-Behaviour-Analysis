@@ -11,11 +11,11 @@ This project acts as a behavioural data analyst consulting engagement: using SQL
 - No external database server or GUI tool needed the entire project runs from two Python scripts
 
 ## Project Structure
-```
+
 main.py              # builds bank_app.db and generates sample data
 analysis.py           # runs all 10 SQL tasks against bank_app.db
 bank_app.db            # the SQLite database (created after running main.py)
-```
+
 
 ## Database Schema
 Four tables, matching a typical banking app's backend structure:
