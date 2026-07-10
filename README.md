@@ -46,12 +46,12 @@ Sample data covers 80 customers, ~2,445 logins, ~1,066 transactions, and ~3,878 
 
 ## Key Findings
 
-- **Active users grew from 15 (Nov 2025) to a peak of 64 (Mar 2026)**, then began declining to 55 by June 2026 — engagement growth is stalling, consistent with what the Head of Digital Banking flagged.
+- **Active users grew from 15 (Nov 2025) to a peak of 64 (Mar 2026)**, then began declining to 55 by June 2026,engagement growth is stalling, consistent with what the Head of Digital Banking flagged.
 - **Transfer Money is the most-used feature** (1,097 uses), followed by Buy Airtime (831) and Pay Bills (749). Loan Applications is the least used (572), suggesting lower awareness or a more complex user flow for that feature.
 - **24 of 80 customers (30%) are dormant**, defined as no login in the last 60 days. The longest-dormant customer hasn't logged in for 228 days.
-- **Dormant customers behave very differently from active ones**: active customers average 39.9 logins and 17.6 transactions each, compared to just 8.8 logins and 3.3 transactions for dormant customers. Feature usage shows the same gap (63.6 vs 13.3 average uses). This is a clear early-warning signal — a drop in login frequency and feature usage precedes full churn.
-- **Investments feature adoption is high** (93.8% of customers have used it at least once), and typically happens fast — an average of 18.8 days after signup — though a handful of customers take several months to discover it, pointing to inconsistent onboarding.
-- **Gauteng generates the most transaction revenue** among provinces, though average session time is fairly consistent across all provinces (16.0–16.9 minutes), suggesting engagement itself isn't regionally driven — value generation is.
+- **Dormant customers behave very differently from active ones**: active customers average 39.9 logins and 17.6 transactions each, compared to just 8.8 logins and 3.3 transactions for dormant customers. Feature usage shows the same gap (63.6 vs 13.3 average uses). This is a clear early-warning signal: a drop in login frequency and feature usage precedes full churn.
+- **Investments feature adoption is high** (93.8% of customers have used it at least once), and typically happens fast meaning an average of 18.8 days after signup, though a handful of customers take several months to discover it, pointing to inconsistent onboarding.
+- **Gauteng generates the most transaction revenue** among provinces, though average session time is fairly consistent across all provinces (16.0–16.9 minutes), suggesting engagement itself isn't regionally driven, value generation is.
 
 ## Recommendations for the Bank
 
@@ -61,6 +61,6 @@ Sample data covers 80 customers, ~2,445 logins, ~1,066 transactions, and ~3,878 
 4. **Prioritise retention over acquisition in the short term** :active user growth has plateaued since March, meaning the real lever for improving app health right now is deepening engagement, not driving more sign-ups.
 
 ## How to Run
-1. Run main.py first : this creates `bank_app.db` and populates it with sample data.
+1. Run main.py first : this creates bank_app.db and populates it with sample data.
 2. Run analysis.py : this executes all 10 SQL tasks and prints the results.
 
