@@ -41,7 +41,7 @@ Sample data covers 80 customers, ~2,445 logins, ~1,066 transactions, and ~3,878 
 | 6 | Dormant customer identification | DATEDIFF-equivalent, HAVING, LEFT JOIN |
 | 7 | High-value customer analysis | SUM(), NTILE(), window functions |
 | 8 | Feature adoption timing | JOIN, CTE, date arithmetic |
-| 9 | Churn behaviour comparison | CASE WHEN, aggregations, `CTE` |
+| 9 | Churn behaviour comparison | CASE WHEN, aggregations, CTE |
 | 10 | Executive dashboard dataset | Combines all of the above |
 
 ## Key Findings
