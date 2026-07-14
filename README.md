@@ -51,7 +51,7 @@ Sample data covers 80 customers, ~2,445 logins, ~1,066 transactions, and ~3,878 
 - **24 of 80 customers (30%) are dormant**, defined as no login in the last 60 days. The longest-dormant customer hasn't logged in for 228 days.
 - **Dormant customers behave very differently from active ones**: active customers average 39.9 logins and 17.6 transactions each, compared to just 8.8 logins and 3.3 transactions for dormant customers. Feature usage shows the same gap (63.6 vs 13.3 average uses). This is a clear early-warning signal: a drop in login frequency and feature usage precedes full churn.
 - **Investments feature adoption is high** (93.8% of customers have used it at least once), and typically happens fast meaning an average of 18.8 days after signup, though a handful of customers take several months to discover it, pointing to inconsistent onboarding.
-- **Gauteng generates the most transaction revenue** among provinces, though average session time is fairly consistent across all provinces (16.0–16.9 minutes), suggesting engagement itself isn't regionally driven, value generation is.
+- **Gauteng generates the most transaction revenue** among provinces, though average session time is fairly consistent across all provinces (16.0-16.9 minutes), suggesting engagement itself isn't regionally driven, value generation is.
 
 ## Recommendations for the Bank
 
